@@ -13,23 +13,23 @@ baseurl: ""
 lang: en
 
 # Change to your timezone › http://www.timezoneconverter.com/cgi-bin/findzone/findzone
-timezone:
+timezone: "America/Detroit"
 
 # jekyll-seo-tag settings › https://github.com/jekyll/jekyll-seo-tag/blob/master/docs/usage.md
 # ↓ --------------------------
 
-title: Chirpy # the main title
+title: Autodidact Blog # the main title
 
-tagline: A text-focused Jekyll theme # it will display as the sub-title
+tagline: A tech-focused self-documented learning blog # it will display as the sub-title
 
 description: >- # used by seo meta and the atom feed
-  A minimal, responsive and feature-rich Jekyll theme for technical writing.
+  Welcome to 'The Autodidact Blog' – a digital haven where curiosity meets technology. Embark on a journey of self-discovery and knowledge as I traverse the ever-evolving landscape of technology. Through this blog, I document my personal odyssey as an enthusiastic autodidact, delving into the realms of coding, IT infrastructure, and all things technology. Join me as I unravel the intricacies of programming languages, untangle networking cables, demystify cutting-edge tech trends, and share insightful notes from my hands-on experiments. Let's embark together on this quest for technical prowess, one self-documented lesson at a time.
 
 # fill in the protocol & hostname for your site, e.g., 'https://username.github.io'
 url: ""
 
 github:
-  username: github_username # change to your github username
+  username: https://github.com/michael-baas # change to your github username
 
 twitter:
   username: twitter_username # change to your twitter username
@@ -76,7 +76,7 @@ theme_mode: # [light|dark]
 img_cdn:
 
 # the avatar on sidebar, support local or CORS resources
-avatar:
+avatar: 'https://avatars.githubusercontent.com/u/140991883?v=4'
 
 # boolean type, the global switch for TOC in posts.
 toc: true
