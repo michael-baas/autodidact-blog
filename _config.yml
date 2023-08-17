@@ -26,23 +26,23 @@ description: >- # used by seo meta and the atom feed
   Welcome to 'The Autodidact Blog' – a digital haven where curiosity meets technology. Embark on a journey of self-discovery and knowledge as I traverse the ever-evolving landscape of technology. Through this blog, I document my personal odyssey as an enthusiastic autodidact, delving into the realms of coding, IT infrastructure, and all things technology. Join me as I unravel the intricacies of programming languages, untangle networking cables, demystify cutting-edge tech trends, and share insightful notes from my hands-on experiments. Let's embark together on this quest for technical prowess, one self-documented lesson at a time.
 
 # fill in the protocol & hostname for your site, e.g., 'https://username.github.io'
-url: ""
+url: "https://www.autodidact.blog"
 
 github:
   username: https://github.com/michael-baas # change to your github username
 
-twitter:
-  username: twitter_username # change to your twitter username
+#twitter:
+  #username: twitter_username # change to your twitter username
 
-social:
+#social:
   # Change to your full name.
   # It will be displayed as the default author of the posts and the copyright owner in the Footer
-  name: your_full_name
-  email: example@domain.com # change to your email address
-  links:
+  name: Michael Baas
+  email: autodidact-blog@protonmail.com
+  #links:
     # The first element serves as the copyright owner's link
-    - https://twitter.com/username # change to your twitter homepage
-    - https://github.com/username # change to your github homepage
+    # - https://twitter.com/username # change to your twitter homepage
+    # - https://github.com/username # change to your github homepage
     # Uncomment below to add more social links
     # - https://www.facebook.com/username
     # - https://www.linkedin.com/in/username
