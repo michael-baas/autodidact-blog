@@ -5,44 +5,44 @@ theme: jekyll-theme-chirpy
 
 # Change the following value to '/PROJECT_NAME' ONLY IF your site type is GitHub Pages Project sites
 # and doesn't have a custom domain.
-# baseurl: "/autodidact-blog/"
-
+# baseurl: ""
+baseurl: autodidact.blog
 # The language of the webpage › http://www.lingoes.net/en/translator/langcode.htm
 # If it has the same name as one of the files in folder `_data/locales`, the layout language will also be changed,
 # otherwise, the layout language will use the default value of 'en'.
 lang: en
 
 # Change to your timezone › http://www.timezoneconverter.com/cgi-bin/findzone/findzone
-timezone: "America/Detroit"
+timezone:
 
 # jekyll-seo-tag settings › https://github.com/jekyll/jekyll-seo-tag/blob/master/docs/usage.md
 # ↓ --------------------------
 
-title: Autodidact Blog # the main title
+title: Chirpy # the main title
 
-tagline: A tech-focused self-documented learning blog # it will display as the sub-title
+tagline: A text-focused Jekyll theme # it will display as the sub-title
 
 description: >- # used by seo meta and the atom feed
-  Welcome to 'The Autodidact Blog' – a digital haven where curiosity meets technology. Embark on a journey of self-discovery and knowledge as I traverse the ever-evolving landscape of technology. Through this blog, I document my personal odyssey as an enthusiastic autodidact, delving into the realms of coding, IT infrastructure, and all things technology. Join me as I unravel the intricacies of programming languages, untangle networking cables, demystify cutting-edge tech trends, and share insightful notes from my hands-on experiments. Let's embark together on this quest for technical prowess, one self-documented lesson at a time.
+  A minimal, responsive and feature-rich Jekyll theme for technical writing.
 
 # fill in the protocol & hostname for your site, e.g., 'https://username.github.io'
-url: "https://www.autodidact.blog"
+url: ""
 
 github:
-  username: https://github.com/michael-baas # change to your github username
+  username: github_username # change to your github username
 
-#twitter:
-  #username: twitter_username # change to your twitter username
+twitter:
+  username: twitter_username # change to your twitter username
 
-#social:
+social:
   # Change to your full name.
   # It will be displayed as the default author of the posts and the copyright owner in the Footer
-  name: Michael Baas
-  email: autodidact-blog@protonmail.com
-  #links:
+  name: your_full_name
+  email: example@domain.com # change to your email address
+  links:
     # The first element serves as the copyright owner's link
-    # - https://twitter.com/username # change to your twitter homepage
-    # - https://github.com/username # change to your github homepage
+    - https://twitter.com/username # change to your twitter homepage
+    - https://github.com/username # change to your github homepage
     # Uncomment below to add more social links
     # - https://www.facebook.com/username
     # - https://www.linkedin.com/in/username
@@ -76,7 +76,7 @@ theme_mode: # [light|dark]
 img_cdn:
 
 # the avatar on sidebar, support local or CORS resources
-avatar: 'https://avatars.githubusercontent.com/u/140991883?v=4'
+avatar:
 
 # boolean type, the global switch for TOC in posts.
 toc: true
