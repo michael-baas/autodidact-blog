@@ -64,5 +64,5 @@ powercfg /change /disk-timeout-ac 0
 powercfg /hibernate off
 ```
 
-> You'll need to run this script in an Administrator PowerShell and will have to allow scripts to be executed on the machine
+> You'll need to run this script in an Administrator PowerShell and will need to allow scripts to be executed on the machine
 {: .prompt-tip }
