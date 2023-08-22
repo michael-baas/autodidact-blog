@@ -18,18 +18,18 @@ To Change this in Windows Settings using the GUI, I found that ASUS had a great 
 
 In PowerShell, power plan settings can be set with the *powerconfg* command. To list all current power plans, use:
 
-```ps1
+```ps
 powercfg /list
 ```
 
 The output will show the <span title="Globally Unique IDentifier">GUID</span> of all available power plans. You can then set the profile with the following command:
 
-```ps1
+```ps
 powercfg /setactive GUID_HERE
 ```
 If you wanted to make sure that the computer always stayed on, like me for my backup server, you'd use these commands: 
 
-```ps1
+```ps
 # Ensure the computer never goes to sleep
 powercfg /change /standby-timeout-ac 0
 
@@ -44,7 +44,7 @@ powercfg /hibernate off
 ```
 Now this is cool and all, but it seems like a lot of typing, how could we just run this as a PowerShell script?
 
-```ps1
+```ps
 # Create a variable to store the GUID in, filter out the GUID to set with powercfg
 $highPerformanceSchemeGuid = (powercfg /list | Where-Object { $_ -match "High performance" } | ForEach-Object { if ($_ -match "([a-fA-F0-9]{8}-[a-fA-F0-9]{4}-[a-fA-F0-9]{4}-[a-fA-F0-9]{4}-[a-fA-F0-9]{12})") { $matches[1] } })
 
