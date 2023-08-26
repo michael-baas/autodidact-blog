@@ -1,7 +1,7 @@
 ---
 layout: post
 title: How To Install and Remove Default Apps from Windows Using PowerShell
-date: 2023-08-26 8:40:00 -0500
+date: 2023-08-26 8:40:00 -400
 tags: [windows, powershell]
 categories: [howto]
 ---

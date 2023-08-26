@@ -1,7 +1,7 @@
 ---
 layout: post
 title: How To Enable PowerShell Scripts
-date: 2023-08-26 10:40:00 -0500
+date: 2023-08-26 09:40:00 -0000
 tags: [windows, power-management]
 categories: [howto]
 ---
