@@ -42,12 +42,14 @@ Get-AppxPackage -AllUsers Microsoft.WindowsStore | Foreach {Add-AppxPackage -Dis
 ```powershell
 Get-AppxPackage | select Name, PackageFullName | Format-List
 ```
-1. Remove the app with the package full name
+1. Search through the results
+![Powershell how to use find instruction screenshot](../assets/img/find-powershell.png)
+1. Remove the app with the package's full name
 ```powershell
 # Remove the Camera App
 Remove-AppxPackage Microsoft.WindowsCamera_2023.2305.4.0_x64__8wekyb3d8bbwe
 ```
-1. Remove mulitple apps 
+1. Remove multiple apps 
 ```powershell
 # Removes BingWeather, GetHelp and People
 "Microsoft.BingWeather", "Microsoft.GetHelp", "Microsoft.People" | ForEach { Get-AppxPackage -Name $_ | Remove-AppxPackage }
