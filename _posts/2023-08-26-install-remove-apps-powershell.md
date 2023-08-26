@@ -139,7 +139,8 @@ Microsoft.Winget.Source
 
 
 
-1. Reinstall the app with the following command
+1. Reinstall the app using the name we just found
 ```powershell
-Get-AppxPackage -AllUsers *c
+Get-AppxPackage -AllUsers Microsoft.WindowsStore | Foreach {Add-AppxPackage -DisableDevelopmentMode -Register "$($_.InstallLocation)\AppXManifest.xml"}
 ```
+
