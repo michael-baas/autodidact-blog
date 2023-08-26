@@ -1,6 +1,7 @@
 ---
 layout: post
 title: How To Set a High-Performance Power Profile on Windows
+date: 2023-08-21 20:40:00 -0500
 tags: [windows, power-management]
 categories: [howto]
 ---
