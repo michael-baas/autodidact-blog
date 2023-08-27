@@ -65,5 +65,5 @@ powercfg /change /disk-timeout-ac 0
 powercfg /hibernate off
 ```
 
-> You'll need to run this script in an Administrator PowerShell and will need to [allow scripts to be executed](/_posts/2023-08-26-running-ps-scripts.md) on the machine
+> You'll need to run this script in an Administrator PowerShell and will need to [allow scripts to be executed](https://autodidact.blog/posts/running-ps-scripts/) on the machine
 {: .prompt-tip }
