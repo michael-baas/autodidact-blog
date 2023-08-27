@@ -21,7 +21,7 @@ Let's filter our search for a specific app. For example, if we wanted to reinsta
 ```powershell
 Get-AppxPackage -AllUsers | Where-Object { $_.Name -like '*store*' } | Select Name
 ```
-```powershell output
+```powershell
 Name
 ----
 Microsoft.Services.Store.Engagement
