@@ -42,8 +42,9 @@ Get-AppxPackage -AllUsers Microsoft.WindowsStore | Foreach {Add-AppxPackage -Dis
 ```powershell
 Get-AppxPackage | select Name, PackageFullName | Format-List
 ```
-1. Search through the results
-![Powershell how to use find instruction screenshot](../assets/img/find-powershell.png)
+1. Search through the results 
+
+![Powershell how to use find instruction screenshot](/assets/img/find-powershell.png)
 1. Remove the app with the package's full name
 ```powershell
 # Remove the Camera App
