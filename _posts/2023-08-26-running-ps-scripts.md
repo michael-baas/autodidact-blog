@@ -20,4 +20,4 @@ There are several policy levels you can set:
 1. Undefined: Removes the currently assigned execution policy from the current scope. This means that the system will use the execution policy set at a wider scope.
 
 
-[^1]: https://learn.microsoft.com/en-us/powershell/module/microsoft.powershell.core/about/about_execution_policies?view=powershell-7.3
+[^1]: [Microsoft Learn](https://learn.microsoft.com/en-us/powershell/module/microsoft.powershell.core/about/about_execution_policies?view=powershell-7.3)
