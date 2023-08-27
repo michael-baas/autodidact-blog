@@ -21,7 +21,7 @@ Let's filter our search for a specific app. For example, if we wanted to reinsta
 ```powershell
 Get-AppxPackage -AllUsers | Where-Object { $_.Name -like '*store*' } | Select Name
 ```
-```powershell
+```terminal
 Name
 ----
 Microsoft.Services.Store.Engagement
@@ -29,7 +29,7 @@ Microsoft.Services.Store.Engagement
 Microsoft.StorePurchaseApp
 Microsoft.WindowsStore
 ```
-As you can see, the results are much more managable
+As you can see, the results are much more manageable
 1. Reinstall the app using the name we just found
 ```powershell
 Get-AppxPackage -AllUsers Microsoft.WindowsStore | Foreach {Add-AppxPackage -DisableDevelopmentMode -Register "$($_.InstallLocation)\AppXManifest.xml"}
