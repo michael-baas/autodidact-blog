@@ -45,6 +45,7 @@ Get-AppxPackage | select Name, PackageFullName | Format-List
 1. Search through the results 
 
 ![Powershell how to use find instruction screenshot](/assets/img/find-powershell.png)
+Alternatively, you can hit alt + space then hit "e" and "f" to open the search dialog instead of right-clicking the title bar.
 1. Remove the app with the package's full name
 ```powershell
 # Remove the Camera App

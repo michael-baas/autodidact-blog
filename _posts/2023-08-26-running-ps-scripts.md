@@ -8,9 +8,11 @@ categories: [howto]
 
 # How to Enable PowerShell Scripts
 
-Windows PowerShell has a safety feature called Execution Policies. Execution Policies are used to prevent malicious scripts and configurations from being executed on a machine by default. Execution Policies can be controlled in Windows for a local computer, current user or particular session. Group Policy can also be used to set execution policies for computers and users [^Source]
+## Why Do I Need Make Changes to Run PowerShell Scripts?
 
-There are several policy levels you can set:
+Windows PowerShell has a safety feature called Execution Policies. Execution Policies are used to prevent malicious scripts and configurations from being executed on a machine by default. Execution Policies can be controlled in Windows for a local computer, current user or particular session. Group Policy can also be used to set execution policies for computers and users [^1]
+
+## These are the several policy levels you can set:
 
 1. Restricted (default): No scripts can be run, including those you write.
 1. AllSigned: Only scripts that are signed by a trusted publisher can be run.
@@ -19,5 +21,6 @@ There are several policy levels you can set:
 1. Bypass: Nothing is blocked, and there are no warnings or prompts.
 1. Undefined: Removes the currently assigned execution policy from the current scope. This means that the system will use the execution policy set at a wider scope.
 
+#### References
 
-[^Source]: [Microsoft Learn](https://learn.microsoft.com/en-us/powershell/module/microsoft.powershell.core/about/about_execution_policies?view=powershell-7.3)
+[^1]: [Microsoft Learn](https://learn.microsoft.com/en-us/powershell/module/microsoft.powershell.core/about/about_execution_policies?view=powershell-7.3)
