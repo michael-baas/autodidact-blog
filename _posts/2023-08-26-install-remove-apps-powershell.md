@@ -65,6 +65,6 @@ Click on the green banner at the bottom of the app that says "Fix them in Settin
 
 ![Xbox app reinstall Microsoft Store](/assets/img/xbox-store-reinstall.png)
 
-Install the Microsoft Store from the list of dependancies listed (this screenshot was taken from a machine that had the Microsoft Store installed already)
+Install the Microsoft Store from the list of dependencies listed (this screenshot was taken from a machine that had the Microsoft Store installed already)
 
 ![Install Dependencies for XboxApp](/assets/img/xbox-app-install-dependancies.png)
