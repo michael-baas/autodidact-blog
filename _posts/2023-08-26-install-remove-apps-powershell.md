@@ -56,3 +56,13 @@ Remove-AppxPackage Microsoft.WindowsCamera_2023.2305.4.0_x64__8wekyb3d8bbwe
 # Removes BingWeather, GetHelp and People
 "Microsoft.BingWeather", "Microsoft.GetHelp", "Microsoft.People" | ForEach { Get-AppxPackage -Name $_ | Remove-AppxPackage }
 ```
+
+## What if the Microsoft Store is missing from installed package list?
+
+Sometimes, the Microsoft Store can't be reinstalled using the commands listed above. In that case, you can use the Xbox app to re-install the Microsoft Store. If you don't have the Xbox app installed, it can be downloaded [here](https://www.xbox.com/en-US/apps/xbox-app-for-pc). 
+
+Click on the green banner at the bottom of the app that says "Fix them in Settings"
+[Xbox app reinstall Microsoft Store](/assets/img/xbox-store-reinstall.png)
+
+Install the Microsoft Store from the list of dependancies listed (this screenshot was taken from a machine that had the Microsoft Store installed already)
+[Install Dependencies for XboxApp](/assets/img/xbox-app-install-dependancies.png)
