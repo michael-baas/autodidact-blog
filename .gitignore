@@ -21,5 +21,9 @@ package-lock.json
 # Misc
 assets/js/dist
 
+<<<<<<< HEAD
 #DS Store
+=======
+# DS STORE
+>>>>>>> development
 .DS_Store
