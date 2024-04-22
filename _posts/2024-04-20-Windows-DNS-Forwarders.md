@@ -28,7 +28,10 @@ box.
 
 ![DNS Manager select forwarders](/assets/img/dns-add-forwarders.png)
 
+Add the IP address(es) of DNS servers to forward to. You will know the server has been taken successfully if you see the green check mark in the Validated column.
 
-## Conclusion
+![DNS add IP](/assets/img/dns-forwarders-ip.png)
 
-Write your conclusion here.
+Finally, hit "Apply" to finalize the settings. 
+
+![Apply Settings](/assets/img/dns-apply-settings.png)
