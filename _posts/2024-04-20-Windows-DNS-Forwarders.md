@@ -1,6 +1,6 @@
 ---
 layout: post
-title: "Windows DNS Forwarders"
+title: "Windows Server DNS Forwarders"
 date: 2024-04-20
 tags: [Windows Server, DNS]
 categories: [howto]
