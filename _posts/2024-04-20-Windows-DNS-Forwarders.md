@@ -27,7 +27,6 @@ Next you need to select the "Forwarders" tab in the properties dialog
 box.
 
 ![DNS Manager select forwarders](/assets/img/dns-add-forwarders.png)
-
 Add the IP address(es) of DNS servers to forward to. You will know the server has been taken successfully if you see the green check mark in the Validated column.
 
 ![DNS add IP](/assets/img/dns-forwarders-ip.png)
