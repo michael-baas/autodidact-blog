@@ -1,18 +1,18 @@
 queue:
   - id: lhtl-focused-diffuse
-    title: Learning how to learn: Focused vs. Diffuse thinking
+    title: "Learning how to learn: Focused vs. Diffuse thinking"
     tags: [learning, study]
     kind: lhtl
   - id: lhtl-pomodoro
-    title: Learning how to learn: The Pomodoro method
+    title: "Learning how to learn: The Pomodoro method"
     tags: [learning, time-management]
     kind: lhtl
   - id: lhtl-chunking
-    title: Learning how to learn: Chunking ideas
+    title: "Learning how to learn: Chunking ideas"
     tags: [learning, memory]
     kind: lhtl
   - id: lhtl-spaced-repetition
-    title: Learning how to learn: Spaced repetition
+    title: "Learning how to learn: Spaced repetition"
     tags: [learning, memory]
     kind: lhtl
   - id: comp-what-is-a-computer
