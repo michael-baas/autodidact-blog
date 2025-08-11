@@ -1,0 +1,41 @@
+name: Daily Blog Agent
+
+on:
+  schedule:
+    - cron: "0 22 * * *"   # 6:00 PM ET during EDT (GitHub Actions uses UTC)
+  workflow_dispatch:
+
+permissions:
+  contents: write
+  pull-requests: write
+
+jobs:
+  generate:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+
+      - name: Set up Python
+        uses: actions/setup-python@v5
+        with:
+          python-version: "3.11"
+
+      - name: Install deps
+        run: |
+          python -m pip install --upgrade pip
+          pip install pyyaml markdownify
+
+      - name: Generate today’s post
+        run: python scripts/generate_post.py
+
+      - name: Create PR
+        uses: peter-evans/create-pull-request@v6
+        with:
+          commit-message: "chore(posts): add daily draft"
+          title: "Daily draft: $(date -u +'%Y-%m-%d')"
+          body: |
+            Automated draft for your review.
+            - Runs daily at 22:00 UTC (targets 6:00 PM ET)
+            - Please check glossary tooltips and screenshot markers (📸).
+          branch: chore/daily-draft
+          delete-branch: true
