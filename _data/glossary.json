@@ -1,0 +1,19 @@
+{
+  "computer": "A machine that follows instructions to store, change, and show information.",
+  "hardware": "The physical parts you can touch, like the keyboard or screen.",
+  "software": "Programs (apps) that tell the computer what to do.",
+  "internet": "A worldwide network that lets computers share information.",
+  "wifi": "A way to connect to the internet without wires inside a building.",
+  "cloud": "Files and apps stored on other computers on the internet, not just your own device.",
+  "pomodoro": "A study method: work for a short time (like 25 minutes), then take a short break.",
+  "focused": "When your mind pays attention to one thing.",
+  "diffuse": "When your mind is relaxed and can make new connections.",
+  "file": "A saved item on a computer, like a document or photo.",
+  "folder": "A place to keep files together so they are organized.",
+  "keyboard": "The set of keys you type on to enter letters and numbers.",
+  "mouse": "A small device you move with your hand to control the pointer on the screen.",
+  "screen": "The part of a computer or phone that shows pictures and words.",
+  "data": "Information that is stored or sent by computers.",
+  "chunking": "Grouping small pieces of information together so they are easier to remember.",
+  "spaced repetition": "Reviewing something many times with longer and longer gaps between reviews."
+}
