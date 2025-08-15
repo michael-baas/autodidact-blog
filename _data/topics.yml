@@ -1,45 +1,60 @@
 queue:
-  - id: lhtl-focused-diffuse
-    title: "Learning how to learn: Focused vs. Diffuse thinking"
-    tags: [learning, study]
-    kind: lhtl
-  - id: lhtl-pomodoro
-    title: "Learning how to learn: The Pomodoro method"
-    tags: [learning, time-management]
-    kind: lhtl
-  - id: lhtl-chunking
-    title: "Learning how to learn: Chunking ideas"
-    tags: [learning, memory]
-    kind: lhtl
-  - id: lhtl-spaced-repetition
-    title: "Learning how to learn: Spaced repetition"
-    tags: [learning, memory]
-    kind: lhtl
-  - id: comp-what-is-a-computer
-    title: What is a computer? (simple tour)
-    tags: [basics]
-    kind: basics
-  - id: comp-hardware-vs-software
-    title: Hardware vs. software
-    tags: [basics]
-    kind: basics
-  - id: comp-files-folders
-    title: Files & folders
-    tags: [basics]
-    kind: basics
-  - id: comp-input-output
-    title: Input & output (keyboard, mouse, screen)
-    tags: [basics]
-    kind: basics
-  - id: net-computers-talk
-    title: How computers talk to each other (the internet, simply)
-    tags: [networking]
-    kind: basics
-  - id: net-wifi-vs-data
-    title: Wi-Fi vs. mobile data
-    tags: [networking]
-    kind: basics
-  - id: cloud-what
-    title: What is “the cloud”?
-    tags: [cloud]
-    kind: basics
+- id: lhtl-pomodoro
+  title: 'Learning how to learn: The Pomodoro method'
+  tags:
+  - learning
+  - time-management
+  kind: lhtl
+- id: lhtl-chunking
+  title: 'Learning how to learn: Chunking ideas'
+  tags:
+  - learning
+  - memory
+  kind: lhtl
+- id: lhtl-spaced-repetition
+  title: 'Learning how to learn: Spaced repetition'
+  tags:
+  - learning
+  - memory
+  kind: lhtl
+- id: comp-what-is-a-computer
+  title: What is a computer? (simple tour)
+  tags:
+  - basics
+  kind: basics
+- id: comp-hardware-vs-software
+  title: Hardware vs. software
+  tags:
+  - basics
+  kind: basics
+- id: comp-files-folders
+  title: Files & folders
+  tags:
+  - basics
+  kind: basics
+- id: comp-input-output
+  title: Input & output (keyboard, mouse, screen)
+  tags:
+  - basics
+  kind: basics
+- id: net-computers-talk
+  title: How computers talk to each other (the internet, simply)
+  tags:
+  - networking
+  kind: basics
+- id: net-wifi-vs-data
+  title: Wi-Fi vs. mobile data
+  tags:
+  - networking
+  kind: basics
+- id: cloud-what
+  title: "What is \u201Cthe cloud\u201D?"
+  tags:
+  - cloud
+  kind: basics
+- id: lhtl-focused-diffuse
+  title: 'Learning how to learn: Focused vs. Diffuse thinking'
+  tags:
+  - learning
+  - study
+  kind: lhtl
