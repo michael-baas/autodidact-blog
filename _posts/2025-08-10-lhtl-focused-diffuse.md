@@ -39,10 +39,7 @@ You will learn the two thinking modes—**focused** and **diffuse**—and use a 
 
 4) **Take a 5-minute break (switch to diffuse mode).**  
    Walk, stretch, or do a simple chore. Let your mind wander (relaxed attention).  
-   <img src="https://commons.wikimedia.org/wiki/Special:FilePath/Bright%20green%20checkbox-checked.svg"
-        alt="Break complete"
-        width="28"
-        loading="lazy">
+   ![Break complete (checkmark)](https://commons.wikimedia.org/wiki/Special:FilePath/Bright%20green%20checkbox-checked.svg)
 
 5) **Use retrieval practice.**  
    Without looking at notes, write what you can remember. Then fill gaps.  
@@ -55,10 +52,7 @@ You will learn the two thinking modes—**focused** and **diffuse**—and use a 
 
 7) **Verification step.**  
    You should be able to explain the idea in plain words and solve a similar problem without peeking.  
-   <img src="https://commons.wikimedia.org/wiki/Special:FilePath/Green%20check.svg"
-        alt="Task complete"
-        width="28"
-        loading="lazy">
+   ![Task complete](https://commons.wikimedia.org/wiki/Special:FilePath/Green%20check.svg)
 
 ## Common gotchas
 - Long, nonstop “grind” → tunnel vision and slower progress. Use the 25/5 cycle to reset.  
@@ -66,7 +60,7 @@ You will learn the two thinking modes—**focused** and **diffuse**—and use a 
 
 ## Learn more (trusted links)
 - **Learning How to Learn** — Barbara Oakley & Terrence Sejnowski (Coursera): https://www.coursera.org/learn/learning-how-to-learn  
-- **How to enroll (quick)**  
+- **How to enroll quickly**  
   1) Open the course page and click **Enroll for free**.  
   2) Choose **Audit/Full Course, No Certificate** (free videos/readings; availability may vary) **or** **Purchase/Free Trial** for a certificate.  
   3) Create a Coursera account or sign in, then confirm enrollment.  
